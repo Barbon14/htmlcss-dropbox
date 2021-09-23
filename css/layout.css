@@ -8,3 +8,140 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+h2 {
+    margin-bottom: 50px;
+    /* debug */
+    background-color: crimson;
+    height: 100px;
+}
+
+/* clearfix */
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* container centraggio contenuto */
+.container-center {
+    width: 90%;
+    margin: 0 auto;
+    /* debug */
+    height: 100%;
+    background-color: goldenrod;
+}
+
+/* colonne */
+.colonna-sx {
+    float: left;
+    /* debug */
+    height: 400px;
+    width: 50%;
+    background-color: hotpink;
+    border: solid 2px black;
+}
+
+.colonna-dx {
+    float: right;
+    /* debug */
+    height: 400px;
+    width: 50%;
+    background-color: indigo;
+    border: solid 2px black;
+}
+
+/* header */
+header {
+    height: 80px;
+    /* debug */
+    background-color: aquamarine;
+}
+
+/* jumbotron */
+#jumbotron {
+    background-color: #b4d0e7;
+    margin-bottom: 50px;
+    /* debug */
+    height: 500px;
+}
+
+#jumbotron h1 {
+    /* debug */
+    height: 100px;
+    background-color: green;
+}
+
+/* contenuto pagina */
+
+.content {
+    padding: 20px 0;
+}
+
+/* sezione scelta piano */
+.piano {
+    float: left;
+    width: calc(96% / 3);
+    border: 1px solid #d0d0d3;
+    margin-top: 50px;
+    /* debug */
+    background-color: blue;
+    height: 300px;
+}
+
+#fatt-select {
+    /* debug */
+    background-color: darkgreen;
+    height: 80px;
+}
+
+.piano.enterprise {
+    width: 100%;
+    /* debug */
+    height: 200px;
+}
+
+/* sezione operazioni dropbox business */
+.options-business {
+    float: left;
+    width: calc(96% / 3);
+    margin-top: 50px;
+    /* debug */
+    height: 200px;
+    background-color: chartreuse;
+    border: solid 2px black;
+}
+
+.cnt-margin {
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+/* sezione team che utilizzano dropbox business */
+
+
+/* footer */
+footer {
+    background-color: black;
+}
+
+#foot-top {
+    padding: 50px;
+}
+
+.footer-category {
+    float: left;
+    width: 20%;
+    /* debug */
+    height: 200px;
+    background-color: blanchedalmond;
+    border: 2px solid black;
+}
+
+#foot-bot {
+    height: 80px;
+    padding-top: 10px;
+    border-top: 1px solid #bfbfbf;
+    /* debug */
+    background-color: blue;
+}
