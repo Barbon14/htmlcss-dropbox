@@ -36,7 +36,7 @@ h2 {
 
 /* container centraggio contenuto */
 .container-center {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     /* debug */
     height: 100%;
@@ -47,17 +47,17 @@ h2 {
 .colonna-sx {
     float: left;
     /* debug */
-    height: 400px;
+    /* height: 400px; */
     width: 50%;
-    background-color: hotpink;
+    /* background-color: hotpink; */
 }
 
 .colonna-dx {
     float: right;
     /* debug */
-    height: 400px;
+    /* height: 400px; */
     width: 50%;
-    background-color: indigo;
+    /* background-color: indigo; */
 }
 
 /* header */
@@ -83,9 +83,8 @@ header * {
 #main-nav li {
     display: inline-block;
     margin: 0 20px;
-    font-weight: 600;
+    font-weight: bold;
 }
-
 
 #nav-dx {
     float: right;
@@ -96,15 +95,35 @@ header * {
     background-color: #b4d0e7;
     margin-bottom: 50px;
     /* debug */
-    height: 500px;
+    height: 700px;
+}
+
+#jumbotron .colonna-sx {
+    width: 35%;
+    padding-right: 50px;
+}
+
+#jumbotron .colonna-dx {
+    width: 65%;
 }
 
 #jumbotron h1 {
-    /* debug */
-    height: 100px;
-    background-color: green;
+    font-size: 75px;
+    margin: 20px 0;
 }
 
+#jumbotron p {
+    margin-bottom: 40px;
+}
+
+#jumbotron .btn {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#jumbotron img {
+    width: 100%;
+}
 /* contenuto pagina */
 
 .content {
