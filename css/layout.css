@@ -9,6 +9,17 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    background-color: #0161fb;
+    color: white;
+    padding: 5px 20px;
+}
+
 h2 {
     margin-bottom: 50px;
     /* debug */
@@ -39,7 +50,6 @@ h2 {
     height: 400px;
     width: 50%;
     background-color: hotpink;
-    border: solid 2px black;
 }
 
 .colonna-dx {
@@ -48,14 +58,37 @@ h2 {
     height: 400px;
     width: 50%;
     background-color: indigo;
-    border: solid 2px black;
 }
 
 /* header */
 header {
     height: 80px;
-    /* debug */
-    background-color: aquamarine;
+    padding: 20px;
+    background-color: white;
+}
+
+header * {
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+#logo {
+    float: left;
+}
+
+#main-nav ul {
+    display: inline-block;
+}
+
+#main-nav li {
+    display: inline-block;
+    margin: 0 20px;
+    font-weight: 600;
+}
+
+
+#nav-dx {
+    float: right;
 }
 
 /* jumbotron */
