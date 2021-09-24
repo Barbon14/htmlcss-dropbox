@@ -9,11 +9,17 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+img {
+    width: 100%;
+}
+
 .btn {
     background-color: #0161fb;
     color: white;
     padding: 5px 20px;
     text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
 h2 {
@@ -75,6 +81,7 @@ header * {
 
 #logo {
     float: left;
+    width: auto;
 }
 
 #main-nav ul {
@@ -121,9 +128,6 @@ header * {
     margin-bottom: 20px;
 }
 
-#jumbotron img {
-    width: 100%;
-}
 /* contenuto pagina */
 
 .content {
@@ -164,7 +168,18 @@ header * {
 .piano.enterprise {
     width: 100%;
     /* debug */
-    height: 200px;
+    /* height: 200px; */
+}
+
+/* sezione entra in contatto con un partner */
+.contact .colonna-dx {
+    padding: 50px;
+}
+
+.contact .btn {
+    color: black;
+    background-color: white;
+    border: solid 1px black;
 }
 
 /* sezione operazioni dropbox business */
