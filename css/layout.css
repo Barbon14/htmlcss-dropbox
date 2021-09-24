@@ -193,8 +193,7 @@ header * {
 }
 
 .cnt-margin {
-    margin-right: 2%;
-    margin-left: 2%;
+    margin: 0 2%;
 }
 
 
@@ -209,6 +208,15 @@ header * {
     border: solid 1px black;
 }
 
+.square {
+    float: left;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    /* debug */
+    background-color: green;
+    border: solid 1px black;
+}
 
 .back-gray {
     background-color: #f5f5f5;
