@@ -295,22 +295,33 @@ footer {
 }
 
 #foot-top {
-    padding: 50px;
+    padding: 50px 0;
+    color: white;
 }
 
 .footer-category {
     float: left;
     width: 20%;
     /* debug */
-    height: 200px;
-    background-color: blanchedalmond;
-    border: 2px solid black;
+    /* height: 200px; */
+    /* background-color: blanchedalmond; */
+    /* border: 2px solid black; */
+}
+
+.footer-category li {
+    list-style: none;
+}
+
+.footer-category a {
+    text-decoration: none;
+    color: white;
 }
 
 #foot-bot {
-    height: 80px;
+    height: 60px;
     padding-top: 10px;
     border-top: 1px solid #bfbfbf;
+    color: #666666;
     /* debug */
-    background-color: blue;
+    /* background-color: blue; */
 }
