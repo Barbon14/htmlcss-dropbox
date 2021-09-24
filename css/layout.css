@@ -105,11 +105,10 @@ header {
 .options-business {
     float: left;
     width: calc(96% / 3);
-    margin-top: 50px;
+    margin-bottom: 50px;
     /* debug */
     height: 200px;
     background-color: chartreuse;
-    border: solid 2px black;
 }
 
 .cnt-margin {
@@ -118,7 +117,32 @@ header {
 }
 
 /* sezione team che utilizzano dropbox business */
+.team {
+    float: left;
+    width: calc(100% / 3);
+    /* debug */
+    height: 400px;
+    background-color: gray;
+    border: solid 1px black;
+}
 
+
+.back-gray {
+    background-color: #f5f5f5;
+}
+
+/* sezione prova dropbox business */
+.back-azzurrino {
+    background-color: #b4d0e7;
+}
+
+/* sezione domande frequenti */
+.freq-question {
+    height: 100px;
+    border-bottom: 1px solid #dcdcde;
+    /* debug */
+    background-color: gold;
+}
 
 /* footer */
 footer {
