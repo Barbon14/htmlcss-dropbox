@@ -278,10 +278,15 @@ header * {
 
 /* sezione domande frequenti */
 .freq-question {
+    padding: 60px 0;
     height: 100px;
     border-bottom: 1px solid #dcdcde;
     /* debug */
-    background-color: gold;
+    /* background-color: gold; */
+}
+
+.freq-question span {
+    float: right;
 }
 
 /* footer */
