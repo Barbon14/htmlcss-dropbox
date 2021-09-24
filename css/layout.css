@@ -135,11 +135,11 @@ header * {
 }
 
 /* sezione scelta piano */
-#fatt-select {
+/* #fatt-select {
     /* debug */
     /* background-color: darkgreen; */
     /* height: 80px; */
-}
+/* }  */
 
 
 .piano {
@@ -202,10 +202,14 @@ header * {
 .team {
     float: left;
     width: calc(100% / 3);
-    /* debug */
     height: 400px;
-    background-color: gray;
-    border: solid 1px black;
+    /* debug */
+    /* background-color: gray; */
+    /* border: solid 1px black; */
+}
+
+.team.back-gray {
+    padding: 50px;
 }
 
 .square {
@@ -214,8 +218,53 @@ header * {
     height: 50%;
     position: relative;
     /* debug */
-    background-color: green;
-    border: solid 1px black;
+    /* background-color: green; */
+    /* border: solid 1px black; */
+}
+
+.square img {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.square.back-green {
+    border: solid 10px #d0e9cd;
+}
+
+
+
+.back-green {
+    background-color: #a2d39b;
+
+}
+
+.back-violadark {
+    background-color: #61082b;
+
+}
+
+.back-azzurro {
+    background-color: #0093ce;
+
+}
+
+.back-redlight {
+    background-color: #ff1c1c;
+}
+
+.back-red {
+    background-color: #d50a1f;
+}
+
+.back-blue {
+    background-color: #0e2481;
+}
+
+.back-yellow {
+    background-color: #ffd830;
 }
 
 .back-gray {
