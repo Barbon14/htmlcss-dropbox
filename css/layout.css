@@ -21,6 +21,10 @@ a {
     color: #0161fb;
 }
 
+p {
+    line-height: 26px;
+}
+
 .btn {
     background-color: #0161fb;
     color: white;
@@ -177,7 +181,6 @@ header a {
     margin-left: 0;
 }
 
-
 .piano {
     float: left;
     height: 1050px;
@@ -242,6 +245,8 @@ header a {
     color: black;
     background-color: white;
     border: solid 1px black;
+    margin-top: 50px;
+    display: inline-block;
 }
 
 /* sezione operazioni dropbox business */
