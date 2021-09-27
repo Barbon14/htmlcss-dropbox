@@ -376,6 +376,7 @@ footer {
 
 .footer-category li {
     list-style: none;
+    margin: 8px 0;
 }
 
 .footer-category a {
@@ -383,9 +384,13 @@ footer {
     color: white;
 }
 
+footer .hr-short{
+    width: 120px;
+}
+
 #foot-bot {
+    font-size: 15px;
     height: 60px;
     padding-top: 10px;
-    border-top: 1px solid #bfbfbf;
     color: #666666;
 }
