@@ -23,6 +23,7 @@ a {
 
 p {
     line-height: 26px;
+    margin-bottom: 50px;
 }
 
 .btn {
@@ -33,9 +34,17 @@ p {
     text-decoration: none;
 }
 
+.hr-short {
+    width: 60px;
+    margin: 30px 0;
+    border-top: 1px solid #d0d0d3;
+    border-bottom: 0px;
+}
+
+/* settaggi titoli */
 h2 {
     font-size: 48px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 h3 {
@@ -88,6 +97,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 999;
 }
 
 header a {
@@ -138,10 +148,6 @@ header a {
     font-size: 85px;
     text-align: justify;
     margin-bottom: 50px;
-}
-
-#jumbotron p {
-    margin-bottom: 30px;
 }
 
 #jumbotron .btn {
@@ -204,13 +210,6 @@ header a {
     margin-bottom: 40px;
 }
 
-.piano hr {
-    width: 60px;
-    margin: 30px 0;
-    border-top: 1px solid #d0d0d3;
-    border-bottom: 0px;
-}
-
 .piano li {
     list-style: none;
     margin: 20px 0;
@@ -245,15 +244,12 @@ header a {
     color: black;
     background-color: white;
     border: solid 1px black;
-    margin-top: 50px;
-    display: inline-block;
 }
 
 /* sezione operazioni dropbox business */
 .options-business {
     float: left;
     width: calc(92% / 3);
-    margin-bottom: 50px;
 }
 
 
@@ -261,11 +257,16 @@ header a {
 .team {
     float: left;
     width: calc(100% / 3);
-    height: 400px;
+    height: 600px;
+    margin-top: 50px;
 }
 
-.team.back-gray {
+.team.description {
     padding: 50px;
+}
+
+.team.description img {
+    width: 40%;
 }
 
 .square {
@@ -276,32 +277,29 @@ header a {
 }
 
 .square img {
-    width: 50%;
+    width: 40%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    filter: invert(1);
 }
 
 .square.back-green {
     border: solid 10px #d0e9cd;
 }
 
-
-
+/* sfondi background */
 .back-green {
     background-color: #a2d39b;
-
 }
 
 .back-violadark {
     background-color: #61082b;
-
 }
 
 .back-azzurro {
     background-color: #0093ce;
-
 }
 
 .back-redlight {
@@ -353,7 +351,6 @@ footer {
 .footer-category {
     float: left;
     width: 20%;
-    /* debug */
 }
 
 .footer-category li {
@@ -370,5 +367,4 @@ footer {
     padding-top: 10px;
     border-top: 1px solid #bfbfbf;
     color: #666666;
-    /* debug */
 }
