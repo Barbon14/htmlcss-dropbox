@@ -416,3 +416,7 @@ footer .hr-short{
 header li:hover {
     border-bottom: solid 5px #0161fb;
 }
+
+footer li:hover {
+    text-decoration: underline;
+}
