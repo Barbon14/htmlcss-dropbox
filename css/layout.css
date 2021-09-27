@@ -38,7 +38,7 @@ h2 {
 
 /* container centraggio contenuto */
 .container-center {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -46,14 +46,12 @@ h2 {
 .colonna-sx {
     float: left;
     /* debug */
-    /* height: 400px; */
     width: 50%;
 }
 
 .colonna-dx {
     float: right;
     /* debug */
-    /* height: 400px; */
     width: 50%;
 }
 
@@ -96,8 +94,13 @@ header a {
 /* jumbotron */
 #jumbotron {
     background-color: #b4d0e7;
-    margin-bottom: 50px;
-    height: 700px;
+    margin-bottom: 80px;
+    padding-top: 100px;
+    height: 850px;
+}
+
+#jumbotron .container-center {
+    width: 80%;
 }
 
 #jumbotron .colonna-sx {
@@ -110,22 +113,29 @@ header a {
 }
 
 #jumbotron h1 {
-    font-size: 75px;
-    margin: 20px 0;
+    font-size: 85px;
+    text-align: justify;
+    margin-bottom: 50px;
 }
 
 #jumbotron p {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 #jumbotron .btn {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+#down-arrow {
+    font-size: 40px;
+    margin-top: 50px;
 }
 
 /* contenuto pagina */
 
 .content {
-    padding: 20px 0;
+    padding: 80px 0;
 }
 
 /* sezione scelta piano */
@@ -140,7 +150,7 @@ header a {
     float: left;
     width: calc(96% / 3);
     border: 1px solid #d0d0d3;
-    margin-top: 50px;
+    margin: 0 2%; 
     /* debug */
     /* background-color: blue; */
 }
@@ -178,13 +188,9 @@ header a {
 .options-business {
     float: left;
     width: calc(96% / 3);
+    margin: 0 2%;
     margin-bottom: 50px;
 }
-
-.cnt-margin {
-    margin: 0 2%;
-}
-
 
 
 /* sezione team che utilizzano dropbox business */
