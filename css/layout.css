@@ -40,6 +40,7 @@ p {
     background-color: white;
 }
 
+/* separatore decorativo */
 .hr-short {
     width: 60px;
     margin: 30px 0;
@@ -164,19 +165,24 @@ header a {
 #down-arrow {
     font-size: 40px;
     margin-top: 50px;
+    color: black;
 }
 
 /* contenuto pagina */
 
+/* settaggi generali section */
 .content {
     padding-top: 80px;
 }
 
 /* sezione scelta piano */
+
+/* selezione fatturazione */
 #fatt-select {
     margin: 40px 0;
 } 
 
+/* facsimile radiobox */
 .radiocheck {
     display: inline-block;
     vertical-align: text-bottom;
@@ -193,6 +199,7 @@ header a {
     margin-left: 0;
 }
 
+/* schede piani tariffe */
 .piano {
     float: left;
     height: 1050px;
@@ -265,6 +272,7 @@ header a {
     margin-top: 50px;
 }
 
+/* settaggi colonna centrale */
 .team.description {
     padding: 50px;
 }
@@ -273,6 +281,7 @@ header a {
     width: 40%;
 }
 
+/* settaggi colonne laterali */
 .square {
     float: left;
     width: 50%;
@@ -293,7 +302,7 @@ header a {
     border: solid 10px #d0e9cd;
 }
 
-/* sfondi background */
+/* sfondi background loghi team*/
 .back-green {
     background-color: #a2d39b;
 }
@@ -346,14 +355,16 @@ header a {
 }
 
 /* sezione domande frequenti */
-#faq .freq-question:first-of-type {
-    border-top: 1px solid #dcdcde;
-}
 
 .freq-question {
     padding: 35px 0;
     height: 100px;
     border-bottom: 1px solid #dcdcde;
+}
+
+/* aggiungo bordo superiore alla prima faq */
+#faq .freq-question:first-of-type {
+    border-top: 1px solid #dcdcde;
 }
 
 .freq-question span {
@@ -366,6 +377,7 @@ footer {
     margin-top: 80px;
 }
 
+/* parte superiore footer */
 #foot-top {
     padding: 50px 0;
     color: white;
@@ -390,6 +402,7 @@ footer .hr-short{
     width: 120px;
 }
 
+/* parte inferiore footer */
 #foot-bot {
     font-size: 15px;
     height: 60px;
