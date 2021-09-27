@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -120,6 +121,7 @@ header a {
     display: inline-block;
     margin: 0 20px;
     font-weight: bold;
+    padding-bottom: 14px;
 }
 
 #nav-sx {
@@ -408,4 +410,9 @@ footer .hr-short{
     height: 60px;
     padding-top: 10px;
     color: #666666;
+}
+
+/* bonus */
+header li:hover {
+    border-bottom: solid 5px #0161fb;
 }
