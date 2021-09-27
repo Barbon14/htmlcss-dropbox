@@ -26,12 +26,18 @@ p {
     margin-bottom: 50px;
 }
 
+/* settaggi button */
 .btn {
     background-color: #0161fb;
     color: white;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
+}
+
+.white {
+    color: black;
+    background-color: white;
 }
 
 .hr-short {
@@ -240,9 +246,7 @@ header a {
     padding: 50px;
 }
 
-.contact .btn {
-    color: black;
-    background-color: white;
+.contact .btn {    
     border: solid 1px black;
 }
 
@@ -338,8 +342,6 @@ header a {
 
 #prova .btn {
     float: right;
-    background-color: white;
-    color: black;
     width: 300px;
 }
 
