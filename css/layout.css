@@ -17,16 +17,31 @@ img {
     width: 100%;
 }
 
+a {
+    color: #0161fb;
+}
+
 .btn {
     background-color: #0161fb;
     color: white;
-    padding: 5px 20px;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
 }
 
 h2 {
+    font-size: 48px;
     margin-bottom: 50px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
 }
 
 /* clearfix */
@@ -45,14 +60,17 @@ h2 {
 /* colonne */
 .colonna-sx {
     float: left;
-    /* debug */
     width: 50%;
 }
 
 .colonna-dx {
     float: right;
-    /* debug */
     width: 50%;
+}
+
+/* margine delle colonne centrali */
+.cnt-margin {
+    margin: 0 4%;
 }
 
 /* header */
@@ -139,20 +157,33 @@ header a {
 }
 
 /* sezione scelta piano */
-/* #fatt-select {
-    /* debug */
-    /* background-color: darkgreen; */
-    /* height: 80px; */
-/* }  */
+#fatt-select {
+    margin: 40px 0;
+} 
+
+.radiocheck {
+    display: inline-block;
+    vertical-align: text-bottom;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-left: 20px;
+    border: 1px solid #d0d0d3;
+    border-radius: 50%;
+}
+
+.radiocheck.selected{
+    border: solid 5px #0161fb;
+    margin-left: 0;
+}
 
 
 .piano {
     float: left;
-    width: calc(96% / 3);
+    height: 1050px;
+    width: calc(92% / 3);
     border: 1px solid #d0d0d3;
-    margin: 0 2%; 
-    /* debug */
-    /* background-color: blue; */
+    margin-bottom: 50px;
 }
 
 .piano .type {
@@ -162,15 +193,44 @@ header a {
 }
 
 .piano .description {
-    padding: 30px;
+    padding: 40px;
+}
+
+.price-description {
+    color: #637381;
+    margin-bottom: 40px;
+}
+
+.piano hr {
+    width: 60px;
+    margin: 30px 0;
+    border-top: 1px solid #d0d0d3;
+    border-bottom: 0px;
+}
+
+.piano li {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.piano .fa-check {
+    color: #0161fb;
 }
 
 .piano .btn {
     display: block;
+    margin: 40px 0;
 }
 
 .piano.enterprise {
     width: 100%;
+    height: auto;
+}
+
+.piano.enterprise .btn {
+    float: right;
+    margin: 0;
+    max-width: 300px;
 }
 
 /* sezione entra in contatto con un partner */
