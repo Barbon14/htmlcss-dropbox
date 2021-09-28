@@ -426,3 +426,27 @@ header li:hover {
 footer li:hover {
     text-decoration: underline;
 }
+
+/* dropdown menu header */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 59px;
+  left: 0;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  border: 1px solid #dcdcde;
+}
+
+.dropdown-content a {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content  {
+    display: block;
+}
